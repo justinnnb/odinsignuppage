@@ -1,0 +1,88 @@
+:root {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: rgb(43, 39, 39);
+
+
+}
+
+#page {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40% 60% ;
+}
+
+#logo {
+   margin-left: 30%; 
+}
+
+#name {
+    margin-top: 10%;
+    font-size: 25rem;
+    color: white;
+}
+
+#logoback {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin-top: 500px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+#left {
+    height: 100vh;
+    background-image: url(/Media/halie-west-25xggax4bSA-unsplash\(1\).jpg);
+    min-width: 50%;
+}
+
+#description {
+    padding: 0 10%;
+    padding-top: 10%;
+    font-size: 4.5rem;
+}
+
+#signupform {
+    font-size: 4.5rem;
+    font-weight:900;
+    background-color: white;
+    padding: 5% 10%;
+
+}
+#form {
+    font-size: 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+    background-color: white;
+    padding: 0 10%;
+}   
+
+input, textarea {
+    font-size: 4.5rem;
+    width: 100%;
+}
+
+#signup {
+    background-color: rgb(248, 248, 248);
+}
+
+#submit {
+    margin: 5rem 0;
+    font-size: 4.5rem ;
+    width: 60;
+}
+
+#create {
+    background-color:#596d48;
+    color: white;
+    padding: 25px;
+    border-radius: 2rem;
+    width: 125%;
+}
